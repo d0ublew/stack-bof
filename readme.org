@@ -1,0 +1,29 @@
+* Introduction to Stack-based Buffer Overflow
+
+** Attempt Challenge
+
+To compile a 32-bit binary we need the following package
+
+#+BEGIN_SRC shell
+  sudo apt install gcc-multilib
+#+END_SRC
+
+After installing, head on to the challenge directory and run the following command
+
+#+BEGIN_SRC shell
+  make
+#+END_SRC
+
+** pwn-env
+
+#+BEGIN_SRC shell
+  docker pull d0ublew/pwn-env
+  git clone https://github.com/d0UBleW/pwn-env
+  cd pwn-env
+  chmod +x ./install.sh
+  ./install.sh
+#+END_SRC
+
+** Slides
+
+[[https://docs.google.com/presentation/d/1YcEZPZ799Rl_-ugMzBv9IWeXNOL9stOHI32NDHIc6j0/edit?usp=sharing][Introduction to Stack-based Buffer Overflow - Google Slides]]
