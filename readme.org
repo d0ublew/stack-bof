@@ -8,7 +8,11 @@ To compile a 32-bit binary we need the following package
   sudo apt install gcc-multilib
 #+END_SRC
 
-After installing, head on to the challenge directory and run the following command
+#+BEGIN_SRC shell
+  git clone https://github.com/d0UBleW/stack-bof
+#+END_SRC
+
+After installing, clone the repository, and head on to the challenge directory and run the following command
 
 #+BEGIN_SRC shell
   make
