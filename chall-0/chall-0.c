@@ -8,6 +8,7 @@ int main(int argc, char **argv) {
     char overflow[16];
     char buf[16];
     char safe[] = {"ItIsSafeHere!!!"};
+    memset(overflow, 0, sizeof(overflow));
     gets(buf);
     buf[15] = '\0';
     overflow[15] = '\0';
