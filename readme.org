@@ -14,6 +14,17 @@ After installing, head on to the challenge directory and run the following comma
   make
 #+END_SRC
 
+** Installing Docker on Kali Linux
+
+Ref: [[https://www.kali.org/docs/containers/installing-docker-on-kali/][Installing Docker on Kali Linux | Kali Linux Documentation]]
+
+#+BEGIN_SRC shell
+  sudo apt update
+  sudo apt install -y docker.io
+  sudo systemctl enable docker --now
+  sudo usermod -aG docker $USER
+#+END_SRC
+
 ** pwn-env
 
 #+BEGIN_SRC shell
